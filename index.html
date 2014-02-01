@@ -35,12 +35,19 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/video_style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
 
-        <h1>Hola tronco, hacemos una modificación para verla</h1>
+        <h1 id="page_title">See my video page</h1>
 
+		<video id="video_player" controls autoplay>
+			<source src="videos/legendScarecrow.mp4" type="video/mp4"></source>
+			<source src="videos/legendScarecrow.webm" type="video/webm"></source>
+		</video>
+		
+		
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
 
