@@ -2,101 +2,50 @@
 
 body {
 	width: 100%;
-}
+	padding:0px;
 
-#page_title {
-	width: 60%;
-	text-align: center;
-	color: #FF0000;
-	text-align: center;
 }
 
 header {
-	position: fixed;
+	
 	padding: 0px;
+	display:inline;
+
 }
 
-#navigation_menu {
-	clear: both;
+h1{
+	text-align: center;
+	font-family: 'Frijole', cursive;
 }
 
-ul {
+ul{
+	width:100%;
 	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	border-left-width: 0.25%;
-	border-left-style: solid;
-	border-left-color: #CCC;
+	padding:0.5%;
+	background-color: #E0E0E0 ; 	
 }
 
-li {
-	display: inline;
+li{
+	display:inline-block;
 }
 
-a {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #000;
+a{
+	background-color: #C8C8C8 ;	
 	text-decoration: none;
-	font-size: 0.9em;
-	padding: 0.5%;
-	float: left;
-	border-bottom-width: 0.25%;
-	border-bottom-style: solid;
-	border-bottom-color: #CCC;
-	background-color: #EAEAEA;
-	border-top-width: 0.25%;
-	border-top-style: solid;
-	border-top-color: #CCC;
-	border-right-width: 0.25%;
+	color:white;
+	padding:1%;
+	border-right-width: 0.5%;
 	border-right-style: solid;
-	border-right-color: #CCC;
+	border-right-color: #A0A0A0 ;
+	border-left-width: 0.5%;
+	border-left-style: solid;
+	border-left-color: #A0A0A0 ;
+	text-align: center;
 }
 
-a:hover {
-	color: #000;
-	border-bottom-width: 0.3%;
+a:hover{
+	color:white;
+	border-bottom-width: 1%;
 	border-bottom-style: solid;
-	border-bottom-color: #FF4e00;
-}
-
-#video_container {
-	padding: 2%;
-	background-color: grey;
-	clear: both;
-}
-
-@media screen and (max-width: 960px) {
-	#navigation_menu {
-		width: 960px;
-	}
-	#video_container {
-		background-color: red;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	#navigation_menu {
-		width: 768px;
-	}
-	#video_container {
-		background-color: orange;
-	}
-}
-
-@media screen and (max-width: 550px) {
-	#navigation_menu {
-		width: 550px;
-	}
-	#video_container {
-		background-color: yellow;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	#navigation_menu {
-		width: 320px;
-	}
-	#video_container {
-		background-color: green;
-	}
+	border-bottom-color: orange ;
 }
