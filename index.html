@@ -41,11 +41,16 @@
     <body>
 
         <h1 id="page_title">See my video page</h1>
+        
+        <div id="video_container">
+        	<video width="100%" id="video_player" controls autoplay>
+				<source src="videos/legendScarecrow.mp4" type="video/mp4"></source>
+				<source src="videos/legendScarecrow.webm" type="video/webm"></source>
+				
+			</video>
+        </div>
 
-		<video width="100%" id="video_player" controls autoplay>
-			<source src="videos/legendScarecrow.mp4" type="video/mp4"></source>
-			<source src="videos/legendScarecrow.webm" type="video/webm"></source>
-		</video>
+		
 		
 		
         <script src="js/vendor/zepto.min.js"></script>
