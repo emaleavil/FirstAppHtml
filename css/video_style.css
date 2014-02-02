@@ -49,6 +49,7 @@ a:hover {
 #video_container {
 	padding: 2%;
 	background-color: grey;
+	clear: both;
 }
 
 
